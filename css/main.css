@@ -1,0 +1,170 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  color: #bdbdbd;
+  background-color: #333;
+  background-image: url(../imgs/background.png);
+  background-repeat: repeat;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #f88f26;
+  padding-left: 5px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f88f26;
+  padding-left: 5px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff8913;
+  padding-left: 10px;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #d4000b;
+  padding-left: 10px;
+}
+
+p {
+  padding-left: 10px;
+  text-indent: 1.7em;
+}
+
+th {
+  text-align: center;
+}
+
+input {
+  background-color: #555;
+  border: 1px solid #666;
+  color: #F88F26;
+}
+
+button {
+  background-color: #555;
+  border: 1px solid #666;
+  color: #F88F26;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #666;
+}
+
+button:active {
+  background: #777;
+}
+
+#pageWrapper {
+  width: 1200px;
+  min-height: 100%;
+  margin-bottom: -63px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #333;
+}
+
+#wrapper {
+  position: relative;
+}
+
+#header {
+  position: inherit;
+  border-bottom: 2px solid #68050a;
+}
+
+#middle {
+  position: inherit;
+  top: 2px;
+  background-color: #333;
+}
+
+#content {
+  margin: 15px 10px 10px 15px;
+}
+
+#buffer {
+  height: 63px;
+}
+
+#footer {
+  height: 61px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  border-top: 2px solid #68050a;
+  background-color: #333;
+  text-align: center;
+}
+
+#footerText {
+  position: inherit;
+  top: 10px;
+  height: 25px;
+  background-color: #333;
+  color: #6a6a6a;
+  text-align: center;
+}
+
+#graph1 {
+  display: none;
+  margin: 0 auto;
+  width: 600px;
+  height: 600px;
+  background-color: #a7a7a7;
+}
+#graph2 {
+  display: none;
+  margin: 0 auto;
+  width: 600px;
+  height: 600px;
+  background-color: #a7a7a7;
+}
+
+
+.table-hover tbody tr:hover td,
+.table-hover tbody tr:hover th {
+  background-color: #404040;
+}
+
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+  border-top: 1px solid #666;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #383838;
+}
+
+.table-responsive {
+  border: 1px solid #323232;
+}
+
+.table .table {
+  background-color: #424242;
+}
+
+.table .table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #474747;
+}
+.table-striped>tbody>tr:nth-child(odd)>td, .table-striped>tbody>tr:nth-child(odd)>th {
+    background-color: #424242;
+}
